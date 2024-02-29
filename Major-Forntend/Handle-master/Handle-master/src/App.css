@@ -1,0 +1,10 @@
+#canvas-wrapper {
+  position: relative;
+}
+#scatter-gl-container-left, #scatter-gl-container-right {
+  position: relative;
+  float: left;
+}
+.App {
+  padding: 1em;
+}

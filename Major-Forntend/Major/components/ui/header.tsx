@@ -28,7 +28,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
-          <div className="shrink-0 mr-20 pt-4"> {/* Added pt-4 for padding top */}
+          <div className="shrink-0 mr-20 pt-1"> {/* Added pt-4 for padding top */}
   <Image src={Logo} alt="Logo" height={5} width={130} /> {/* Adjust height and width as needed */}
 </div>
 
