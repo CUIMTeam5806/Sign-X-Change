@@ -54,7 +54,7 @@ export default function Features() {
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
-                <Link href="http://localhost:5173/Handle/">
+                {/* <Link href="http://localhost:5173/Handle/">
                   <a
                     className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                       tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'
@@ -67,12 +67,25 @@ export default function Features() {
                     </div>
                     <div className="text-gray-600">--Basic--</div>
                   </a>
+                </Link> */}
+
+                <Link href="http://localhost:5173/Handle/">
+                  <a
+                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'
+                      }`}
+                    onClick={() => setTab(1)}
+                  >
+                    <div className="font-bold leading-snug tracking-tight mb-1">Level-01</div>
+                    <div className="text-gray-600">
+                      Take collaboration to the next level with security and administrative features built for teams.
+                    </div>
+                    <div className="text-gray-600">--Basic--</div>
+                  </a>
                 </Link>
                 <Link href="http://localhost:5173/Handle/">
                   <a
-                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
-                      tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'
-                    }`}
+                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'
+                      }`}
                     onClick={() => setTab(2)}
                   >
                     <div className="font-bold leading-snug tracking-tight mb-1">Level-02</div>
@@ -84,9 +97,8 @@ export default function Features() {
                 </Link>
                 <Link href="http://localhost:5173/Handle/">
                   <a
-                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
-                      tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'
-                    }`}
+                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'
+                      }`}
                     onClick={() => setTab(3)}
                   >
                     <div className="font-bold leading-snug tracking-tight mb-1">Level-03</div>
