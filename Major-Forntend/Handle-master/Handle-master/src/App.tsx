@@ -146,11 +146,11 @@ export function App() {
       }}
     >
       <div className="flex gap-3 items-center">
-        <h1 className="font-bold align-middle">Handle</h1>
+        <h1 className="font-bold align-middle">WordSpell</h1>
         <img width={50} height={50} className="inline" src={wavingHandUrl} />
       </div>
       <div className="max-w-xl mb-2">
-        <h2 className="text-xl mb-2">Welcome to the Handle prototype!</h2>
+        <h2 className="text-xl mb-2">Welcome to the WordSpell prototype!</h2>
         <div className="mb-2">
           <p>Use American Sign Language letters to spell a five-letter word.</p>
           <p>
