@@ -135,7 +135,7 @@ function Wordle({
               }
             })()}`}
           >
-            {hasWon() ? "You Won" : hasLost() ? "You Lose" : "Handle"}
+            {hasWon() ? "You Won" : hasLost() ? "You Lose" : "Word-Spell"}
           </h1>
           <div className="grid select-none grid-cols-5 grid-rows-5 gap-y-4 gap-x-2 mb-6">
             {(() => {
