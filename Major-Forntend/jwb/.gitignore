@@ -1,0 +1,10 @@
+node_modules
+fingerspelling5.tar
+dataset5
+*.pem
+*.DS_Store
+
+dataset/
+ASL Alphabet Dataset/
+.idea
+.idea/vcs.xml
