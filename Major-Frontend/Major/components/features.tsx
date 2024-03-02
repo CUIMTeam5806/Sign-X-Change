@@ -58,7 +58,7 @@ export default function Features() {
                
 
                 <Link
-                  href="http://localhost:5173/Handle/"
+                  href="http://localhost:3000/"
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'
                     }`}
                   onClick={() => setTab(1)}>
@@ -67,9 +67,8 @@ export default function Features() {
                   
 
                 </Link>
-                
                 <Link
-                  href="http://localhost:5173/Handle/"
+                  href="http://localhost:5173/Word-Spell/"
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'
                     }`}
                   onClick={() => setTab(1)}>
@@ -79,7 +78,7 @@ export default function Features() {
 
                 </Link>
                 <Link
-                  href="http://localhost:5173/Handle/"
+                  href="http://localhost:8080/"
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'
                     }`}
                   onClick={() => setTab(1)}>
