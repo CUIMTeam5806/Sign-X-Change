@@ -1,4 +1,4 @@
-# Sign Xchange
+# Sign-X-change
 
 Sign Xchange is an innovative platform designed to make learning sign language interactive and fun. Whether you're new to sign language or looking to improve your skills, Sign Xchange offers a variety of engaging games and practice sessions to help you learn and master this beautiful form of communication.
 
