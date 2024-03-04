@@ -67,13 +67,14 @@ export default function Features() {
                   
 
                 </Link>
+                
                 <Link
                   href="http://localhost:5173/Word-Spell/"
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'
                     }`}
                   onClick={() => setTab(1)}>
 
-                  <div className="font-bold leading-snug tracking-tight mb-1">Level-02 : Moderate</div>
+                  <div className="font-bold leading-snug tracking-tight mb-1">Level-02 : Moderate </div>
                  
 
                 </Link>
